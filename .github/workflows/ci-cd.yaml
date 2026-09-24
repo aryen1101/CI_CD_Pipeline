@@ -24,7 +24,7 @@ jobs:
       - name: Show operating system
         run: uname -a
 
-secrets-demo:
+  secrets-demo:
     runs-on: ubuntu-latest
     steps:
       - name: Check secret
